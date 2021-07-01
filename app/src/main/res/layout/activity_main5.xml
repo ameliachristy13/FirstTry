@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:layout_margin="40dp">
+
+    <Button
+        android:id="@+id/to51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to 1"/>
+
+    <Button
+        android:id="@+id/to52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/to51"
+        android:text="to 2"/>
+
+    <Button
+        android:id="@+id/to53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/to52"
+        android:text="to 3"/>
+
+    <Button
+        android:id="@+id/to54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/to53"
+        android:text="to 4"/>
+
+</RelativeLayout>
